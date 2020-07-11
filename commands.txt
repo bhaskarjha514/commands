@@ -1,0 +1,58 @@
+Commands:
+
+$pwd   //for know the current directory..
+
+Search software:-
+
+$ sudo apt search <name_of_software>
+$ sudo apt install <name of software>
+$ sudo apt autoremove
+
+Update packages:
+$ sudo apt update
+$ sudo apt upgrade
+
+Directory commands:
+$ cd <dir_name> 
+$cd "dir_name"( ex; python 1)
+
+For back:-
+$cd ..
+
+Make new folder:
+$ mkdir <folder_name>
+$ rm -r <directory>
+$ rm <single_file>
+
+for move into folder:-
+$mv file_name ./path (for move into next folder)
+$mv file_name .. (for move backward folder) 
+
+for copy the file:-
+$cp file_name ./ path 
+
+for rename the file:-
+$mv <old_file> <new file>  \\ $mv hello.py file1.py
+
+$ To create new file
+$ touch <file_name>
+$ nano <filename>		[File editing terminal based editor]
+
+Run a c file
+$ gcc -o <file_output> <c_file.c>    ex:- gcc -o hello hello.c
+$ ./<file_output>                    ex:- ./hello
+
+
+Install a debian package
+$ dpkg -i <filename.deb>
+
+For downloading video from youtube
+$ youtube-dl <paste link> 
+
+compile c++ program--
+$g++ name.cpp -o name
+$./name
+
+github commands:-
+$sudo apt install git-all \\ For installation github:
+
