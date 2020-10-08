@@ -55,4 +55,17 @@ $./name
 
 github commands:-
 $sudo apt install git-all \\ For installation github:
+$git init // to intiallize git project locally.
+$git add . // to add all projects and files
+alreadyLogin?git commit. : gotologin
+$git branch -M main // telling branch here or root
+$git remote add origin https://github.com/bhaskarjha514/TempRepo.git // To Connect server repo with local repo.
+$git push -u origin main // to push on server.
+
+gotologin(){
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+ }
+ 
+ 
 
