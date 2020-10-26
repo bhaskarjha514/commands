@@ -66,6 +66,15 @@ gotologin(){
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
  }
- 
+---------------------------------------------------------------------------- SALESFORCE -----------------------------------------------------------------------------------------
+Hybrid Mobile Apps using salesforce Mobile SDK-
+go through by https://trailhead.salesforce.com/en/content/learn/modules/mobile_sdk_hybrid/mobilesdk_hybrid_getting_started
+                                              or
+forcehybrid create
+change callBack and oAuthUri to connect the App to salesforce. by using root_dir/www/bootcampl.json
+after update run cordova prepare
+then add android to your App - 
+cordova platform add android@8.1.0
+then you're ready to go
  
 
